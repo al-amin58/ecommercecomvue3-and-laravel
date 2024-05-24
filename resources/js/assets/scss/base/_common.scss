@@ -1,0 +1,18 @@
+body{
+  //font-family: "Cookie", cursive;
+  //font-family: "Cookie", cursive;
+  //font-family: "Cookie", sans-serif;
+}
+.container {
+  @apply mx-auto max-w-[95%] lg:max-w-[90%] 2xl:max-w-[80%];
+}
+h1{
+  @apply text-center font-bold text-3xl
+    pt-20 text-[#5A9CCF] pb-10;
+}
+.primary-button{
+  @apply py-3 px-5 bg-[#5A9CCF] text-white font-semibold rounded my-10 hover:bg-amber-600 duration-500;
+}
+input {
+  @apply focus:ring-purple-500 focus:outline-0 py-4 w-full;
+}
